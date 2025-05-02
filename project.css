@@ -1,0 +1,27 @@
+.projectBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+    background-color: #444;
+    border-radius: 20px;
+    color: white;
+}
+
+.projectimg, .projectimg2 {
+    border: 1px solid #ccc;
+    border-radius: 10px 40px;
+    background-color: #333;
+    padding: 20px;
+    width: 60vw;
+    height: 40vh;
+    object-fit: cover;
+    color: white;
+}
+
+.explanation {
+    flex: 1;
+    font-size: 1.2vw;
+}

@@ -1,0 +1,50 @@
+footer {
+    margin-top: 1vw;
+}
+#reviewText {
+    width: 30vw;
+    height: 15vh;
+    border: 1px solid #ccc;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    float: left;
+}
+.save {
+    width: 8vw;
+    height: 3vh;
+    padding: 10px auto;
+}
+#reviewText:focus {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #f0f8ff;
+}
+#reviewConsole {
+    clear: left;
+    margin-top: 1vw;
+    border: 1px solid #555;
+    border-radius: 10px 40px;
+    background-color: #222;
+    width: 80vw;
+    height: 50vh;
+    color: black;
+}
+#reviewBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.reviewItem {
+    background-color: #eaf6ff;
+    margin: 5px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-width: 200px;
+    height: auto;
+}

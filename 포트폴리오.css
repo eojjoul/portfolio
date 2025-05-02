@@ -1,0 +1,137 @@
+/* 페이지 폰트 */
+/* * {
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+/* 링크 흔적 제거 */
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+/* 제목 사진 + 아래 밑줄 */
+h1 {
+
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 3.5vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-left: 5vw;
+    padding-bottom: 10vw;
+    border-bottom: 1px solid #ccc;
+}
+hr {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border: "1px solid #ccc";
+}
+
+/* 메뉴 관련 */
+.Main {
+    width: 150vw;
+    margin: 0 auto;
+}
+.Menu {
+    width: 100%;
+    height: 120px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.Menu ul {                          /* 리스트 스타일 제거 */
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.Menu ul li {                       /* 메뉴 왼쪽 정렬 */
+    width: 140px;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+.Menu ul li a {                     /* 줄바꿈 방지 */
+    white-space: nowrap;
+}
+.Menu a:link, .Menu a:visited {     /* 마우스 포인터가 닿았는가, 링크를 타고 들어갔었는가 */
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.Menu a:hover {                     /* 마우스가 닿았을 때 */
+    color: white;
+    background-color: #222;
+    border-radius: 10px 40px;
+}
+.Menu a:active {                    /* 클릭했을 때 배경 색 */
+    background-color: #444;
+}
+.Main .Menu ul li a {
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 자기소개 페이지 */
+.picture {
+    border: 1px solid #ccc;
+    margin-top: 1.5vw;
+    margin-right: 1.5vw;
+    margin-left: 4vw;
+    width: 15vw;
+    height: 20vw;
+    float: left;
+}
+.introduction2 ul{
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: 'Pretendard', sans-serif;
+}
+.introduction2 ul li {
+    padding-bottom: 15px;
+    color: black;
+}
+
+/* 어떤 페이지에 있는지 표시 */
+.Menu a.MainScene {
+    color: white;
+    background-color: #222;
+    border-radius: 10px 40px;
+}
+.Menu a.introduction {
+    color: white;
+    background-color: #222;
+    border-radius: 10px 40px;
+}
+.Menu a.code {
+    color: white;
+    background-color: #222;
+    border-radius: 10px 40px;
+}
+.Menu a.project {
+    color: white;
+    background-color: #222;
+    border-radius: 10px 40px;
+}
+.Menu a.review {
+    color: white;
+    background-color: #222;
+    border-radius: 10px 40px;
+}
+
+.bgimg {
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url('img/프로그래밍.jpg');
+    background-position: center; /* 이미지 중심을 오른쪽으로 조금 이동 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+}

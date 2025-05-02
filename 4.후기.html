@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="포트폴리오.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="Main">
+            <nav class="Menu">
+                <ul>
+                    <li><a href="0.포트폴리오.html">메인화면</a></li>
+                    <li><a href="1.자기소개.html">자기소개</a></li>
+                    <li><a href="2.프로젝트.html">프로젝트</a></li>
+                    <li><a href="3.코드.html">&nbsp&nbsp코 드&nbsp&nbsp</a></li>
+                    <li><a href="#" class="review">&nbsp&nbsp후 기&nbsp&nbsp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <footer>
+        <textarea id="reviewText" placeholder="후기를 작성해주세요 ( 프로젝트 명 : 내용)"></textarea>
+        <button onclick="saveText()" class="save">게시</button>
+        <div id="reviewConsole"><div id="reviewBox"></div></div>
+    </footer>
+    <script src="review.js"></script>
+</body>
+</html>
